@@ -1,0 +1,32 @@
+{
+  "name": "simbit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lreedm1/Simbit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lreedm1/Simbit/issues"
+  },
+  "homepage": "https://github.com/lreedm1/Simbit#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+   "start": "node dist/index.js",
+   "build": "tsc",
+   "dev": "ts-node src/index.ts"
+  }
+
+}
